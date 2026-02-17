@@ -30,6 +30,11 @@
 - **148 天**学习周期（2023-08-31 ～ 2024-01-25）  
 - **232,818 条**编程答题行为日志
 
+> 📷 项目截图（按 1→8 顺序）：`assets/imgs/1.jpg` ~ `assets/imgs/8.jpg`
+
+<!-- 你也可以用九宫格/拼图展示，这里先放一张总览 -->
+![Project Overview](assets/imgs/1.jpg)
+
 ---
 
 ## 🎯 核心目标
@@ -38,20 +43,20 @@
 - **异常发现**：识别偏科、突击学习、复习不足、异常个体/班级等模式  
 - **时序演化**：展示掌握程度随时间的动态变化与学习轨迹  
 
-
 ---
 
 ## ✨ 核心可视化功能 (Key Features)
 系统从左至右将教学看板划分为三个联动维度，实现宏观管理与微观诊断的有机结合。
 
-<!-- 📷 建议把截图放到 `assets/screenshots/`，然后把下面的占位图路径替换为你们实际文件名。 -->
+> 📷 截图路径：`assets/imgs/`（按 1→8 编号）
 
 ### 1) 🌳 知识树面板 (Knowledge Tree)
 作为系统主入口，展示 `知识点 — 子知识点 — 题目` 的三级层次结构。
 - **状态映射**：绿色 = 高于平均水平；红色 = 薄弱环节
 - **交互联动**：点击节点触发跨层级高亮与灰态隔离，直观呈现从属关系与关联链路
 
-<!-- ![Knowledge Tree](assets/screenshots/knowledge-tree.png) -->
+<img src="assets/imgs/2.jpg" alt="Knowledge Tree" width="50%">
+
 
 ---
 
@@ -60,7 +65,7 @@
 - **动态映射**：文本大小 = 练习次数；颜色 = 掌握度等级（优/良/中/差）
 - **等时长分析**：支持拖拽时间滑块进行滚动对比，定位“考前突击 / 前期遗忘”等现象
 
-<!-- ![Word Cloud](assets/screenshots/wordcloud-timeline.png) -->
+![Word Cloud + Timeline](assets/imgs/3.jpg)
 
 ---
 
@@ -69,7 +74,7 @@
 - **异常捕捉**：离群点定位偏离均值个体，支持查看学生信息
 - **班级追踪**：选中特定学生后高亮其在班级分布中的相对位次
 
-<!-- ![Boxplot](assets/screenshots/boxplot.png) -->
+<img src="assets/imgs/4.jpg" alt="Boxplot" width="50%">
 
 ---
 
@@ -78,7 +83,7 @@
 - **边界对比**：青色光晕 = 个人能力边界；灰色虚线 = 班级均值
 - **形态诊断**：识别“全面发展型”（饱满）vs “偏科型”（尖锐）
 
-<!-- ![Radar](assets/screenshots/radar.png) -->
+![Radar](assets/imgs/5.jpg)
 
 ---
 
@@ -87,8 +92,9 @@
 - **极坐标时钟图**：展示 24h 活跃规律，识别“熬夜型 / 持续型”学习者
 - **日历图**：气泡大小映射每日工作量，识别“刷题周 / 休整期”
 
-<!-- ![Clock](assets/screenshots/clock.png) -->
-<!-- ![Calendar](assets/screenshots/calendar.png) -->
+![Clock](assets/imgs/6.jpg)
+
+![Calendar](assets/imgs/7.jpg)
 
 ---
 
@@ -97,7 +103,7 @@
 - 纵轴：当前题目掌握度  
 通过差值区间划分题目难度系数，辅助题库管理者验证并优化题目设置合理性。
 
-<!-- ![Difficulty](assets/screenshots/difficulty-scatter.png) -->
+![Difficulty Scatter](assets/imgs/8.jpg)
 
 ---
 
@@ -123,7 +129,7 @@
 2. 安装插件 **Live Server**
 3. 右键 `index.html` → **Open with Live Server**
 
-### 方法 B：任意本地服务器（Python）
+### 方法 B：http-server（推荐）
 ```bash
 npm install -g http-server
-http-server -o index.html
+http-server -o /index.html
