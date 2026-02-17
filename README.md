@@ -47,22 +47,6 @@
 
 ---
 
-## 🚀 快速开始 (Quick Start)
-
-建议在浏览器中以缩放比例 75%-80% 打开
-
-### 方法 A：VS Code Live Server（推荐）
-1. 使用 VS Code 打开项目
-2. 安装插件 **Live Server**
-3. 右键 `index.html` → **Open with Live Server**
-
-### 方法 B：http-server
-```bash
-npm install -g http-server
-http-server -o /index.html
-```
----
-
 ## 🌟 项目一览 (Project Showcase)
 
 本项目基于 **ChinaVis 2024「析数启智」挑战赛数据集**开发，数据覆盖：  
@@ -155,3 +139,21 @@ http-server -o /index.html
 4. **个体诊断**：下钻至垫底学生 `90f3fbedfce50f644011`  
  雷达图与日历图揭示：严重偏科 + “期末熬夜突击”习惯  
  → 为个性化辅导提供直接证据与干预方向
+
+
+---
+
+## 🚀 快速开始 (Quick Start)
+
+建议在浏览器中以缩放比例 75%-80% 打开
+
+### 方法 A：VS Code Live Server（推荐）
+1. 使用 VS Code 打开项目
+2. 安装插件 **Live Server**
+3. 右键 `index.html` → **Open with Live Server**
+
+### 方法 B：http-server
+```bash
+npm install -g http-server
+http-server -o /index.html
+```
