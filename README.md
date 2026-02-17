@@ -1,4 +1,28 @@
-# 🎓 析数启智 - 教育数据可视分析看板
+<div align="center">
+
+ 
+  <h1>🎓 析数启智 EduVis Dashboard</h1>
+
+  <p><b>基于时序多变量学习行为数据的教育可视分析平台</b></p>
+
+  <!-- 第一行：基础技术栈 -->
+  <p>
+    <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
+    <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
+    <img src="https://img.shields.io/badge/JavaScript-FFDD00?style=for-the-badge&logo=javascript&logoColor=000000" />
+  </p>
+
+  <!-- 第二行：可视化/交互库（按你们项目实际删改） -->
+  <p>
+    <img src="https://img.shields.io/badge/D3.js-F9A03C?style=for-the-badge&logo=d3dotjs&logoColor=white" />
+    <img src="https://img.shields.io/badge/ECharts-AA344D?style=for-the-badge&logo=apacheecharts&logoColor=white" />
+    <img src="https://img.shields.io/badge/Visualization-Dashboard-2ea44f?style=for-the-badge" />
+    <img src="https://img.shields.io/badge/ChinaVis%202024-Dataset-6f42c1?style=for-the-badge" />
+  </p>
+
+</div>
+
+<hr/>
 
 欢迎来到 **“析数启智”**，一个面向 **教学管理者** 与 **学习者** 的综合性教育数据可视分析平台。
 
@@ -30,7 +54,6 @@
 - **148 天**学习周期（2023-08-31 ～ 2024-01-25）  
 - **232,818 条**编程答题行为日志
 
-> 📷 项目截图（按 1→8 顺序）：`assets/imgs/1.jpg` ~ `assets/imgs/8.jpg`
 
 <!-- 你也可以用九宫格/拼图展示，这里先放一张总览 -->
 ![Project Overview](assets/imgs/1.jpg)
